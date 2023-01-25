@@ -13,6 +13,6 @@ class IslandPhoto(models.Model):
 
 class Island(models.Model):
     name = models.CharField(max_length=30)
-
+    
     def __str__(self):
         return self.name
